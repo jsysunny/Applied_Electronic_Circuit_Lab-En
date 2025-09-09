@@ -29,3 +29,12 @@ When the measured signal exceeds a predefined threshold, an audio feedback is ge
 - Evaluate rehabilitation potential in a non-invasive way to improve patient comfort and motivation
 
 - Utilize bio-signal–based interface as an assistive communication or response trigger device
+  
+&nbsp;
+
+### 🏭 Use of Existing Technology & Scalability
+
+- Applied surface EMG measurement technology by attaching electrodes to the skin and analyzing the electrical signal
+- Amplified EMG signals using an instrumentation amplifier to exceed 5 V, triggering audio output as feedback
+- Considered human muscle resonance frequency for accurate signal interpretation and reliable evaluation
+

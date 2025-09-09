@@ -11,7 +11,7 @@
 1. [📌 Project Overview](#1--Project-Overview)  
 2. [🔧 Components](#2--Components)  
 3. [💻 Technologies](#3--Technologies)  
-4. [🧭 동작 흐름 요약](#4--동작-흐름-요약)   
+4. [🧭 System Workflow](#4--System-Workflow)   
 
    
 &nbsp;
@@ -77,5 +77,56 @@ When the measured signal exceeds a predefined threshold, an audio feedback is ge
 <img width="821" height="280" alt="image" src="https://github.com/user-attachments/assets/3ebcf197-adfd-4b89-9ded-90b3fcc41b4e" />
 
 <img width="928" height="416" alt="image" src="https://github.com/user-attachments/assets/fb95ef9d-be8b-49e3-a99e-9eb19074e23f" />
+
+## 3. 💻 Technologies
+
+| Technology                       | Description                                                                 |
+|---------------------------------|-----------------------------------------------------------------------------|
+| **Bio-signal Measurement**      | Captured micro-voltage muscle signals (2–10 mV, 20–70 Hz) via instrumentation amplifier |
+| **Surface EMG (sEMG) Method**   | Collected EMG signals with skin-attached electrodes for non-invasive and user-friendly measurement |
+| **Circuit Design & Implementation** | Built circuits on breadboards and universal boards, performed soldering and experiments |
+| **Instrumentation Amplifier (IA)** | Amplified input signals (Vin+ = 5 mV, Vin- = 3 mV) about 495× for reliable low-power detection |
+| **Analog Filters (LPF, Notch, HPF)** | Removed unnecessary high-frequency noise; used notch filter to suppress 60 Hz power line noise and HPF for low-frequency filtering |
+| **Non-inverting Amplifier + Rectifier** | Converted signals to positive voltage for stable detection |
+| **Comparator**                  | Generated digital output when input exceeded reference voltage (5 V) → used as sound trigger |
+| **Audio Output**                | Played a sound via speaker when final voltage exceeded 5 V → indicating successful rehabilitation |
+
+
+
+&nbsp;
+## 4. 🧭 System Workflow
+<img width="1272" height="618" alt="image" src="https://github.com/user-attachments/assets/67413147-9c72-4b5e-aa2a-0a3404333f03" />
+
+### 1. 
+<img width="1298" height="728" alt="image" src="https://github.com/user-attachments/assets/94a0cd66-6a6a-4011-8f94-2af5497a62a9" />
+
+&nbsp;
+<img width="974" height="542" alt="image" src="https://github.com/user-attachments/assets/7ebe4478-26c4-4962-a7fb-cf92bc4c0b89" />
+
+<img width="959" height="520" alt="image" src="https://github.com/user-attachments/assets/1bac0d3a-1099-4c92-8b3f-ea2fb166260f" />
+
+<img width="976" height="541" alt="image" src="https://github.com/user-attachments/assets/e20d48cc-ee51-4f8d-93da-02b5e6c47d1b" />
+
+<img width="973" height="529" alt="image" src="https://github.com/user-attachments/assets/8b066117-bee0-4cfa-a28b-5948131236d5" />
+
+<img width="969" height="536" alt="image" src="https://github.com/user-attachments/assets/ac822dc6-718c-4b77-9925-fa4735282d04" />
+
+<img width="973" height="537" alt="image" src="https://github.com/user-attachments/assets/9f5d0020-122f-42a7-9fae-8a28bf5b8452" />
+
+<img width="963" height="538" alt="image" src="https://github.com/user-attachments/assets/a703129f-0cff-4326-bab5-fbe99d8653c0" />
+
+<img width="959" height="530" alt="image" src="https://github.com/user-attachments/assets/75fbd1b8-df51-4b8f-a8a4-b3e54ca312d9" />
+
+<img width="967" height="531" alt="image" src="https://github.com/user-attachments/assets/3c074618-2319-494d-a13a-5a92f2757473" />
+
+<img width="961" height="527" alt="image" src="https://github.com/user-attachments/assets/da5362d5-1c30-4b07-8b8a-f655f03252b6" />
+
+
+
+
+
+&nbsp;
+
+
 
 

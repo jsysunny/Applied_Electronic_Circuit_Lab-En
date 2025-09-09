@@ -38,3 +38,12 @@ When the measured signal exceeds a predefined threshold, an audio feedback is ge
 - Amplified EMG signals using an instrumentation amplifier to exceed 5 V, triggering audio output as feedback
 - Considered human muscle resonance frequency for accurate signal interpretation and reliable evaluation
 
+&nbsp;
+
+### ✅ Potential Applications
+
+- Rehabilitation evaluation system: Provide quantitative indicators of muscle recovery
+- Muscle-triggered alert system: Control alarms or external devices based on user signals
+- Serve as fundamental research material for brain–muscle–machine interface studies
+- Expandable to home exercise tracking devices for elderly patients or those undergoing rehabilitation
+
